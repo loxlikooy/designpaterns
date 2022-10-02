@@ -7,7 +7,7 @@ class Component():
 class ConcreteComponent(Component):
 
     def operation(self) -> str:
-        return "Grade: 93"
+        return "discount: 50%"
 
 
 class Decorator(Component):

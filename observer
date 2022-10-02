@@ -42,7 +42,7 @@ class ConcreteSubject(Subject):
         print("\nSubject: today we have discounts for new game productions")
         self._state = randrange(10, 20)
 
-        print(f"Subject: Our doom eternal will cost %: {self._state}")
+        print(f"Subject: Our doom eternal will cost -{self._state}%")
         self.notify()
 
 
